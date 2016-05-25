@@ -1,5 +1,5 @@
 {
-  "name": "graphql-tools",
+  "name": "@ck/graphql-tools",
   "version": "0.4.2",
   "description": "A set of useful GraphQL tools",
   "main": "dist/index.js",
@@ -27,6 +27,9 @@
   ],
   "author": "Jonas Helfer <helfer@meteor.com>",
   "license": "ISC",
+  "publishConfig": {
+    "registry": "https://artifactory.corp.creditkarma.com:8443/artifactory/api/npm/npmck"
+  },
   "bugs": {
     "url": "https://github.com/apollostack/apollo-proxy/issues"
   },
